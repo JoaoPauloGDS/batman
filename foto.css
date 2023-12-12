@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: url("bt2.jpeg") no repeat reigth top fixed;
+    background-position: 0%;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    position:unset;
+}
+button {
+    margin-top: 700px;
+    margin-left: 329px;
+    width: 500px;
+    height: 150px;
+    background-image: url('https://th.bing.com/th/id/OIP.kHel1rn8UUbkHZAhImS-LgAAAA?pid=ImgDet&rs=1');
+    color:white;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: .8s ;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline:invert;
+    position:absolute;
+
+}
+button:hover {
+    background-image: url('olhosbt.jpg');
+    color: #990000;
+}
+html {
+    height: 870px;
+}
+body {
+min-height: 115%;
+}
+ul.separator {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+}
+ul.separator li {
+    padding: .20em 50px;
+    color: #fff;
+    margin-left:  0px;
+}  
+
+
+ul {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    border: 0;
+    position: absolute;
+
+
+}
+ul.separator li:hover {
+    color:#d21617;
+}
+
+.actor-cards-container {
+    margin-left:  1150px;
+    justify-content: right;
+    position: absolute;
+    
+}
+.cards-content {
+    width: 250px;
+    height: 270px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-top: 73px;
+    margin-block-end: 20px;
+    position: absolute;
+   
+ 
+}
+.card {
+    width: 250px;
+    height: 270px;
+    background-size: cover;
+    background-position: 0%;
+    border-radius: 5px;
+    cursor: pointer;
+    display: grid;
+    flex-direction: column;
+    padding: 0;
+    color: white;
+    font-size: 24px;
+    font-family:  'Amatic SC', sans-serif;  
+    transition: 2s;
+}
+
+
+.card:hover {
+    border: 0px solid #781f40;
+    border-radius: 100%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform:scale(110%) scale(1.5);
+    transform: scale(110%) scale(1.5);
+}
+
+.banner-1 {
+    background-image: url('https://1.bp.blogspot.com/-luCmSvVch9c/XlAmDauVvhI/AAAAAAAA99k/PzajQpG4-7ssr-fEOwILVBnUMfgYa6b5ACLcBGAsYHQ/s1600/20200221-0fac9591-f950-4de8-8666-6890515687f4.jpg');
+
+   
+}
+.banner-2 {
+    background-image: url('https://theawesomer.com/photos/2022/03/new_2022_batmobile_up_close_t-300x250.jpg');
+    
+}
+.banner-3 {
+    background-image: url('https://static.wikia.nocookie.net/the-batman-universe/images/2/24/Alfred_Pennyworth.png/revision/latest?cb=20220216125116');
+    
+}  
+.banner-4 {
+    background-image: url('https://th.bing.com/th/id/R.df5019870c85a58784ccff5a6672307a?rik=fZZGYIuBohmBCg&pid=ImgRaw&r=0');
+   
+} 
+
+.banner-5 {
+    background-image: url('https://epipoca.com.br/wp-content/uploads/2022/07/the-batman-charada-paul-dano1.jpg');
+    
+
+}
+.banner-6 {
+    background-image: url('https://img-s1.onedio.com/id-622a5c130f6471fd3896e373/rev-0/w-600/h-343/f-jpg/s-d5b1bfac4ff88f719cef7c196bebd5bb6d3d30e3.jpg');
+    
+}
+.banner-7 {
+    background-image: url('https://th.bing.com/th/id/OIP.5dXylRPYDHDAtcY9iUG5LAHaEK?pid=ImgDet&rs=1');
+   
+}
+.banner-8 {
+    background-image: url('https://midias.correiobraziliense.com.br/_midias/jpg/2022/01/20/675x450/1_26157815-7354644.jpg?20220120100834?20220120100834');
+    
+
+} 
+.banner-9 {
+    background-image: url('https://cinepop.com.br/wp-content/uploads/2022/01/batman-4-e1643232722596.jpg');
+    
+
+} 
+
+.card-button:hover {
+    background-color:#fff;
+    background-image: url('https://th.bing.com/th/id/OIP.kHel1rn8UUbkHZAhImS-LgAAAA?pid=ImgDet&rs=1');
+    color: black;
+}
+footer {
+    width: 350px;
+    height: 80px;
+    margin-left: 400px;
+    display: grid;
+    grid-template-rows: min-content;
+    justify-content: space-around;
+    color:white;
+    text-align:left;
+    position: absolute;
+    margin-top: 900px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+@media(max-width: 768px){
+    #Fotos {
+       width:0%;
+        
+    }
+    #logo {
+        width:100%;
+        height:300%
+    }
+    ul.separator {
+        width:9%;
+
+    }
+    .separator {
+        display:inline-flex;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left:0px;
+    }
+    ul.separator li {
+    padding: 20px 20px;
+    color: #fff;
+    margin-left:  0px;
+}  
+     button {
+         width:97%;
+         height:10%;
+         margin-top:30%;
+         margin-left:2%
+     }
+    footer{
+        margin-top:750%;
+        margin-left:5%;
+    }
+    .actor-cards-container {
+        width:1%;
+        height:1%;
+        margin-left:70px;
+        display:flex;
+        border:0%;
+    }
+    .cards-content {
+        width:0%;
+        display:grid;
+        grid-template-columns:auto;
+        margin-top:300px;
+        
+        
+    }
+}

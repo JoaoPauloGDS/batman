@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+#image {
+    width: 1350px;
+    height: 400px;
+
+}
+ul {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+
+li {
+    list-style: none;
+    color:white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: .20em 50px;
+    margin-right: 50px;
+    position: absolute;
+    margin-top: 20px;
+
+}
+li:hover {
+    color:#d21617;
+}
+form {
+    width: 0%;
+    margin: 0px;
+    margin-left: 0px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+
+input {
+    width: 220px;
+    height: 50px;
+    border:solid 3px;
+    background-color: aqua;
+    border-color: white;
+    display: grid;
+    padding: .20em 80px;
+}   
+label {
+    width: 100%;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 25px;
+    color: white;
+    position: relative;  
+}
+
+footer {
+
+    margin-top: 150px;
+    width: 200px;
+    height: 10px;
+    margin-left: 550px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 5px ;
+    justify-content: space-around;
+    color:white;
+    position: absolute;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    grid-template-rows: min-content;
+    font-size: 10px;
+
+
+}
+
+@media(max-width: 768px){
+    #Contato {
+       width:180%; 
+    }
+    li {
+        margin-left:18%;
+        padding: 10px 1%;
+        grid-auto-columns:repeat(3, 1fr);
+        column-gap:50px;
+        
+    }
+    #image{
+        width:100%;
+        height:50%;
+        margin-left:0%;
+        margin-top:10%
+    }
+    input {
+        width:100%;
+        height:100%;
+        display:grid;
+       
+        
+    }
+    form {
+        display:grid;
+        grid-template-columns: repeat(1, 3fr);
+        row-gap:20%;
+        margin-left:7%;
+    } 
+    footer{
+        display:grid;
+        width:80%;
+        margin-top:120%;
+        margin-left:8px;
+        
+    
+        
+    }
+}
